@@ -1,0 +1,12 @@
+cut-to-clipboard
+" if(isset($_SERVER['HTTP_USER_AGENT']) && $_SERVER['HTTP_USER_AGENT'] == 'Debug')"
+insert-break
+"{"
+insert-break
+"echo '<pre>'.__FILE__.' -->>| <b> Line </b>'.__LINE__.'</pre><pre>';"
+insert-break
+"print_r(" paste-from-clipboard ");"
+insert-break
+"die;"
+insert-break
+""
