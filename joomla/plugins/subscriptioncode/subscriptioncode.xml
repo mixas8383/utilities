@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6" type="plugin" group="system" method="upgrade">
+	<name>plg_system_subscriptioncode</name>
+	<author>Mixas</author>
+	<creationDate>November 2013</creationDate>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>mixas.8383@gmail.com</authorEmail>
+	<authorUrl>fastjml.com</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_SUBSCRIPTIONCODE_DESC</description>
+	<files>
+		<filename plugin="subscriptioncode">subscriptioncode.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_subscriptioncode.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_subscriptioncode.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="field_name"
+					type="test"
+					label="PLG_SYSTEM_SUBSCRIPTIONCODE_FIELD_NAME"
+					description="PLG_SYSTEM_SUBSCRIPTIONCODE_FIELD_NAME_DESC"
+                    default="subscription_code"
+				/>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
