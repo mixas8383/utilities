@@ -1,0 +1,7 @@
+This simple search and replace pair should do the trick:
+
+Find:
+(<\?)(\s)
+
+Replace:
+<?php$2
